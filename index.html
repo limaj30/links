@@ -6,6 +6,8 @@
         padding-bottom: 40px;
         padding-top: 40px;
         background-color: #f9f4ef;
+        display: flex;
+        justify-content: center;
       }
       .banner-image {
         width: 128px;
@@ -13,6 +15,12 @@
         object-fit: cover;
         border-radius: 128px;
         border: solid white;
+        justify-content: center;
+      }
+      .banner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
       .thumbnails {
         width: 48px;
@@ -24,12 +32,14 @@
       .name {
         color: black;
         font-size: 30px;
+        display: flex;
         justify-content: center;
       }
       .socials {
         color: #716040;
         text-decoration: none;
-        justify-content: center;
+        display: flex;
+        justify-content: space-around;
       }
       .socials a {
         text-decoration: none;
@@ -39,6 +49,7 @@
         background-color: #8c7851;
         display: flex;
         align-items: center;
+        padding: 5px;
       }
       .link a {
         color: white;
@@ -51,12 +62,13 @@
         flex-direction: column;
         gap: 30px;
         max-width: 640px;
+        flex-grow: 1;
       }
     </style>
   
   </head>
 
-<bo>
+<body>
   <div class ="items">  
     <div class="banner">
       <img src="/thumbnails/img/profile-pic.jpg" alt="Juan Lima headshot" class="banner-image">
